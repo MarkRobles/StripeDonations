@@ -82,10 +82,11 @@ h4 {
 }
 .sr-header__logo {
   background-image: var(--logo-image);
-  height: 100%;
+  height: 200px;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
+  transform: translate(26%,-53%);
 }
 .sr-legal-text {
   color: var(--gray-light);
