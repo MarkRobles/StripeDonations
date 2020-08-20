@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Checkout Sample</title>
-    <meta name="description" content="A demo of Stripe client-only Checkout" />
+    <title>Voluntad y Realidad</title>
+    <meta name="description" content="Apoyanos con tu donativo" />
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/global.css" />
     <!-- Load Stripe.js on your website. -->
@@ -20,33 +20,33 @@
         </header>
         <div class="sr-container">
           <section class="container">
-            <h1>One-time Donation</h1>
+            <h1>Donaciones por unica ocasion</h1>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4JYXyvvRb2sX"
+              data-price-id="prod_HreYqpGtmOUMdj"
             >
-              Donate $5.00 once
+              Donar $10.00 MXN 
             </button>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4KO8nfdg8G2Z"
+              data-price-id="prod_Hs1f5bpfKnrp37"
             >
-              Donate $15.00 once
+              Donar $20.00 MXN
             </button>
             <button
               data-checkout-mode="payment"
-              data-price-id="sku_GU4LB0wBViiYsm"
+              data-price-id="prod_Hs1iA5kmmTrwMV"
             >
-              Donate $50.00 once
+              Donar $50.00 MXN
             </button>
           </section>
           <section class="container">
-            <h1>Recurring Donation</h1>
+            <h1>Dona mensualmente</h1>
             <button
               data-checkout-mode="subscription"
-              data-price-id="plan_GU4MXg0k0Uv1S6"
+              data-price-id="prod_Hs1jIW9wcNjLII"
             >
-              Donate $20.00 per month
+              Donar $10.00 MXN al mes
             </button>
           </section>
         </div>
@@ -55,20 +55,14 @@
     </div>
     <div class="banner">
       <span>
-        This is a
-        <a href="https://github.com/stripe-samples"> Stripe Sample </a> on how
-        to use Stripe Checkout on GitHub Pages.
-        <a
-          href="https://github.com/stripe-samples/github-pages-stripe-checkout"
-        >
-          View code on GitHub.
-        </a>
+        Visita 
+        <a href="https://github.com/stripe-samples"> Voluntad y Realidad </a> para conocernos.       
       </span>
     </div>
 
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP';
+      var PUBLISHABLE_KEY = 'pk_live_51HHfHGBveEHeewB8klA8AKEROT3sxmuLhANdVBOMv3fDOPtJ1HIyWIVzV9z7pfyNE5sMWfpYnKsEJmLRQd0uE0Bz00KnL6haBs';
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = location.href.replace(/[^/]*$/, '');
 
